@@ -28,7 +28,6 @@ struct DragonGameView: View {
     
     var body: some View {
         ZStack {
-            // Задний фон с изображением на весь экран
             Image("dragonGame")
                 .resizable()
                 .scaledToFill()
