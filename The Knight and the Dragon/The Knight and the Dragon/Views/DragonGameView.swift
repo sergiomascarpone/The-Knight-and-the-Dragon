@@ -270,4 +270,3 @@ struct DragonGameView_Previews: PreviewProvider {
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
-

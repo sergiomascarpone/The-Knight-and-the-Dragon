@@ -4,7 +4,6 @@
 //
 //  Created by Sergio Mascarpone on 19.08.24.
 //
-
 import SwiftUI
 
 struct MainGameView: View {
@@ -12,7 +11,6 @@ struct MainGameView: View {
     @State private var showInfo = false
     @State private var showDragonGame = false
     @EnvironmentObject var gameState: GameState
-    
     
     var body: some View {
         ZStack {

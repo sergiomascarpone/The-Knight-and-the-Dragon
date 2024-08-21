@@ -4,7 +4,6 @@
 //
 //  Created by Sergio Mascarpone on 20.08.24.
 //
-
 import SwiftUI
 
 struct SettingsView: View {
