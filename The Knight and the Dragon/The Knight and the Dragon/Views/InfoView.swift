@@ -100,4 +100,3 @@ struct InfoView_Previews: PreviewProvider {
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
-
