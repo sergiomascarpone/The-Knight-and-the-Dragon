@@ -15,4 +15,3 @@ class GameState: ObservableObject {
         coins += amount
     }
 }
-

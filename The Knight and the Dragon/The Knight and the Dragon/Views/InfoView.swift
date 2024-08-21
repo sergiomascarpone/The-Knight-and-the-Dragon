@@ -101,4 +101,3 @@ struct InfoView_Previews: PreviewProvider {
     }
 }
 
-
