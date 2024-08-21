@@ -14,7 +14,6 @@ struct MainGameView: View {
     
     var body: some View {
         ZStack {
-            // Задний фон с изображением на весь экран
             Image("backgroundLoaderImage")
                 .resizable()
                 .scaledToFill()
@@ -122,7 +121,7 @@ struct MainGameView: View {
 struct MainGameView_Previews: PreviewProvider {
     static var previews: some View {
         MainGameView()
-            .environmentObject(GameState()) // Добавляем объект состояния для предпросмотра
+            .environmentObject(GameState())
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }

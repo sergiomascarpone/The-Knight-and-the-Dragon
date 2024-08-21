@@ -136,7 +136,7 @@ struct LoaderView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         LoaderView()
-            .environmentObject(GameState()) // Добавляем объект состояния для предпросмотра
+            .environmentObject(GameState()) 
             .previewInterfaceOrientation(.landscapeLeft)
     }
 }
