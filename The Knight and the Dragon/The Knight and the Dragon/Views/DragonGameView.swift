@@ -196,7 +196,7 @@ struct DragonGameView: View {
                             }
                         } else if currentStep == 2 {
                             withAnimation {
-                                currentStep = 3
+                                currentStep = 2
                             }
                             generateMinefield() // Генерация минного поля
                         }
