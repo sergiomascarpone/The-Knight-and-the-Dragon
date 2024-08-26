@@ -32,6 +32,7 @@ struct LoaderView: View {
                                 
                                 // Текст с историей по центру экрана
                                 Text("WELCOME TO THE WORLD OF MEDIEVAL ENTERTAINMENT")
+                                    .font(.custom("BigShouldersStencilDisplay-Bold", size: 40))
                                     .multilineTextAlignment(.center)
                                     .font(.largeTitle)
                                     .foregroundColor(.white)
@@ -49,6 +50,7 @@ struct LoaderView: View {
                                     }
                                 }) {
                                     Text("CONTINUE")
+                                        .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
                                         .bold()
                                         .foregroundColor(.white)
                                         .padding()
@@ -69,6 +71,7 @@ struct LoaderView: View {
                                 }
                             }) {
                                 Text("START")
+                                    .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
                                     .bold()
                                     .foregroundColor(.white)
                                     .padding()

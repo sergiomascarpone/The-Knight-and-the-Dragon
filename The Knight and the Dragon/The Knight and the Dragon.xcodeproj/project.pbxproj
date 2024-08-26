@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B66D71A2C7C9B4A00B21ED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B66D7192C7C9B4A00B21ED7 /* Preview Assets.xcassets */; };
+		1B66D71F2C7C9DE000B21ED7 /* BigShouldersStencilDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B66D71E2C7C9DE000B21ED7 /* BigShouldersStencilDisplay-Medium.ttf */; };
+		1B66D7212C7CA01B00B21ED7 /* BigShouldersStencilDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B66D7202C7CA01B00B21ED7 /* BigShouldersStencilDisplay-Bold.ttf */; };
 		1B8F8E4E2C73429C00EC1227 /* The_Knight_and_the_DragonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F8E4D2C73429C00EC1227 /* The_Knight_and_the_DragonApp.swift */; };
 		1B8F8E502C73429C00EC1227 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8F8E4F2C73429C00EC1227 /* LoaderView.swift */; };
 		1B8F8E522C73429D00EC1227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8F8E512C73429D00EC1227 /* Assets.xcassets */; };
-		1B8F8E552C73429D00EC1227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8F8E542C73429D00EC1227 /* Preview Assets.xcassets */; };
 		1B9036F02C737AD9009A196A /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9036EF2C737AD9009A196A /* MainGameView.swift */; };
 		1B9036F22C748D77009A196A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9036F12C748D77009A196A /* SettingsView.swift */; };
 		1B9036F42C7491FE009A196A /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9036F32C7491FE009A196A /* InfoView.swift */; };
@@ -19,11 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B66D7192C7C9B4A00B21ED7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B66D71E2C7C9DE000B21ED7 /* BigShouldersStencilDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BigShouldersStencilDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		1B66D7202C7CA01B00B21ED7 /* BigShouldersStencilDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BigShouldersStencilDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		1B8F8E4A2C73429C00EC1227 /* The Knight and the Dragon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Knight and the Dragon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8F8E4D2C73429C00EC1227 /* The_Knight_and_the_DragonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Knight_and_the_DragonApp.swift; sourceTree = "<group>"; };
 		1B8F8E4F2C73429C00EC1227 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
 		1B8F8E512C73429D00EC1227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1B8F8E542C73429D00EC1227 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B9036EF2C737AD9009A196A /* MainGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
 		1B9036F12C748D77009A196A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1B9036F32C7491FE009A196A /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
@@ -42,6 +46,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B66D71B2C7C9B5400B21ED7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B66D7192C7C9B4A00B21ED7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B66D71D2C7C9D9200B21ED7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				1B66D71E2C7C9DE000B21ED7 /* BigShouldersStencilDisplay-Medium.ttf */,
+				1B66D7202C7CA01B00B21ED7 /* BigShouldersStencilDisplay-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		1B6EF7252C75F9E600CD267F /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,21 +110,14 @@
 		1B8F8E4C2C73429C00EC1227 /* The Knight and the Dragon */ = {
 			isa = PBXGroup;
 			children = (
+				1B66D71D2C7C9D9200B21ED7 /* Font */,
 				1B6EF7272C75F9FE00CD267F /* Views */,
 				1B6EF7262C75F9F700CD267F /* Models */,
 				1B6EF7252C75F9E600CD267F /* App */,
 				1B8F8E512C73429D00EC1227 /* Assets.xcassets */,
-				1B8F8E532C73429D00EC1227 /* Preview Content */,
+				1B66D71B2C7C9B5400B21ED7 /* Preview Content */,
 			);
 			path = "The Knight and the Dragon";
-			sourceTree = "<group>";
-		};
-		1B8F8E532C73429D00EC1227 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1B8F8E542C73429D00EC1227 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,8 +178,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8F8E552C73429D00EC1227 /* Preview Assets.xcassets in Resources */,
+				1B66D7212C7CA01B00B21ED7 /* BigShouldersStencilDisplay-Bold.ttf in Resources */,
+				1B66D71A2C7C9B4A00B21ED7 /* Preview Assets.xcassets in Resources */,
 				1B8F8E522C73429D00EC1227 /* Assets.xcassets in Resources */,
+				1B66D71F2C7C9DE000B21ED7 /* BigShouldersStencilDisplay-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +335,7 @@
 				DEVELOPMENT_TEAM = T4S8AB5682;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The-Knight-and-the-Dragon-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,6 +365,7 @@
 				DEVELOPMENT_TEAM = T4S8AB5682;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The-Knight-and-the-Dragon-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
