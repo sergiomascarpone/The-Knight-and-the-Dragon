@@ -56,7 +56,6 @@ struct MainGameView: View {
                     // Баланс монет в верхнем правом углу
                     Text("Coins: \(gameState.coins)")
                         .font(.custom("BigShouldersStencilDisplay-Bold", size: 18))
-                        .font(.headline)
                         .foregroundColor(.white)
                         .padding(6)
                         .background(Color.red)
@@ -77,7 +76,6 @@ struct MainGameView: View {
                             
                             Text("DRAGON MOUTH")
                                 .font(.custom("BigShouldersStencilDisplay-Bold", size: 18))
-                                .font(.headline)
                                 .foregroundColor(.white)
                         }
                         .padding()
@@ -96,7 +94,6 @@ struct MainGameView: View {
                             
                             Text("KNIGHT'S SECRET")
                                 .font(.custom("BigShouldersStencilDisplay-Bold", size: 18))
-                                .font(.headline)
                                 .foregroundColor(.white)
                         }
                         .padding()

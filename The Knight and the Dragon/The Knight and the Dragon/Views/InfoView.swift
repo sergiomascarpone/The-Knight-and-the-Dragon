@@ -38,7 +38,6 @@ struct InfoView: View {
                     // Баланс монет
                     Text("Coins: \(gameState.coins)")
                         .font(.custom("BigShouldersStencilDisplay-Bold", size: 18))
-                        .font(.headline)
                         .foregroundColor(.white)
                         .padding(6)
                         .background(Color.red)

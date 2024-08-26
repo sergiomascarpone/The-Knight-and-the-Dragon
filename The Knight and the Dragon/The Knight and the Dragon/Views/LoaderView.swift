@@ -51,7 +51,6 @@ struct LoaderView: View {
                                 }) {
                                     Text("CONTINUE")
                                         .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
-                                        .bold()
                                         .foregroundColor(.white)
                                         .padding()
                                         .frame(height: 30)
@@ -72,7 +71,6 @@ struct LoaderView: View {
                             }) {
                                 Text("START")
                                     .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
-                                    .bold()
                                     .foregroundColor(.white)
                                     .padding()
                                     .frame(height: 30)
@@ -101,9 +99,9 @@ struct LoaderView: View {
                             
                             // Текст с процентами в середине прогресс-бара
                             Text("\(Int(progress))%")
+                                .font(.custom("BigShouldersStencilDisplay-Bold", size: 22))
                                 .foregroundColor(.white)
                                 .font(.headline)
-                                .bold()
                         }
                         .padding(.horizontal, 60)
                         .padding(.bottom, 30)

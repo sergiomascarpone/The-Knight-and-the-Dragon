@@ -79,18 +79,16 @@ struct DragonGameView: View {
                     VStack {
                         Text(win ? "YOU WIN!" : "YOU LOSE!")
                             .font(.custom("BigShouldersStencilDisplay-Bold", size: 40))
-                            .font(.largeTitle)
                             .foregroundColor(.white)
-                            .padding()
+//                            .padding()
                             .background(Color.black.opacity(0.7))
                             .cornerRadius(10)
                         
                         if win {
                             Text("Win: \(totalBet)")
                                 .font(.custom("BigShouldersStencilDisplay-Bold", size: 40))
-                                .font(.title)
                                 .foregroundColor(.white)
-                                .padding()
+//                                .padding()
                         }
                         
                         Button(action: {
@@ -102,9 +100,8 @@ struct DragonGameView: View {
                         }) {
                             Text("GO TO MENU")
                                 .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
-                                .bold()
                                 .foregroundColor(.white)
-                                .padding()
+//                                .padding()
                                 .frame(width: 200, height: 40)
                                 .background(Color.red)
                                 .cornerRadius(5)
@@ -116,7 +113,6 @@ struct DragonGameView: View {
                     Text("WELCOME TO DRAGON MOUTH")
                         .font(.custom("BigShouldersStencilDisplay-Bold", size: 40))
                         .multilineTextAlignment(.center)
-                        .font(.largeTitle)
                         .foregroundColor(.white)
                         .background(Color.black.opacity(0.4))
                         .padding()
@@ -137,7 +133,6 @@ struct DragonGameView: View {
                                     VStack {
                                         Text("\(350 + index * 50)")
                                             .font(.custom("BigShouldersStencilDisplay-Bold", size: 24))
-                                            .font(.headline)
                                             .foregroundColor(.white)
                                     }
                                     .padding()
@@ -158,8 +153,7 @@ struct DragonGameView: View {
                                 HStack {
                                     Text("X \(1.0 - Double(index) * 0.25, specifier: "%.2f")")
                                         .font(.custom("BigShouldersStencilDisplay-Bold", size: 24))
-                                        .bold()
-                                        .font(.headline)
+//                                        .font(.headline)
                                         .foregroundColor(.white)
                                         .padding(.leading, 20)
                                     
@@ -211,9 +205,7 @@ struct DragonGameView: View {
                     }) {
                         Text("CONTINUE")
                             .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
-                            .bold()
                             .foregroundColor(.white)
-                            .padding()
                             .frame(width: 200, height: 40)
                             .background(Color.red)
                             .cornerRadius(5)
