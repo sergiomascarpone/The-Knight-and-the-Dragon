@@ -37,6 +37,7 @@ struct InfoView: View {
                     
                     // Баланс монет
                     Text("Coins: \(gameState.coins)")
+                        .font(.custom("BigShouldersStencilDisplay-Bold", size: 18))
                         .font(.headline)
                         .foregroundColor(.white)
                         .padding(6)
@@ -48,7 +49,7 @@ struct InfoView: View {
                 
                 // Заголовок "Настройки"
                 Text("INFORMATION")
-                    .font(.largeTitle)
+                    .font(.custom("BigShouldersStencilDisplay-Bold", size: 40))
                     .foregroundColor(.white)
                     .padding(2)
                     .background(Color.black.opacity(0.4))
@@ -59,7 +60,7 @@ struct InfoView: View {
                 // Опции "TERMS OF USE", "POLICY", "CONTACTS"
                 VStack(spacing: 20) {
                     Text("TERMS OF USE")
-                        .bold()
+                        .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
                         .foregroundColor(.white)
                         .padding()
                         .frame(height: 30)
@@ -67,7 +68,7 @@ struct InfoView: View {
                         .cornerRadius(5)
                     
                     Text("POLICY")
-                        .bold()
+                        .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
                         .foregroundColor(.white)
                         .padding(45)
                         .frame(height: 30)
@@ -75,7 +76,7 @@ struct InfoView: View {
                         .cornerRadius(5)
                     
                     Text("CONTACTS")
-                        .bold()
+                        .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
                         .foregroundColor(.white)
                         .padding(30)
                         .frame(height: 30)

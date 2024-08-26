@@ -38,6 +38,7 @@ struct SettingsView: View {
                     
                     // Баланс монет
                     Text("Coins: \(gameState.coins)")
+                        .font(.custom("BigShouldersStencilDisplay-Bold", size: 18))
                         .font(.headline)
                         .foregroundColor(.white)
                         .padding(6)
@@ -49,6 +50,7 @@ struct SettingsView: View {
                 
                 // Заголовок "Настройки"
                 Text("SETTINGS")
+                    .font(.custom("BigShouldersStencilDisplay-Bold", size: 40))
                     .font(.largeTitle)
                     .foregroundColor(.white)
                     .padding(2)
@@ -60,7 +62,7 @@ struct SettingsView: View {
                 // Опции "Sounds", "Music", "Vibration"
                 VStack(spacing: 20) {
                     Text("SOUNDS")
-                        .bold()
+                        .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
                         .foregroundColor(.white)
                         .padding(25)
                         .frame(height: 30)
@@ -68,7 +70,7 @@ struct SettingsView: View {
                         .cornerRadius(5)
                     
                     Text("MUSIC")
-                        .bold()
+                        .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
                         .foregroundColor(.white)
                         .padding(35)
                         .frame(height: 30)
@@ -76,7 +78,7 @@ struct SettingsView: View {
                         .cornerRadius(5)
                     
                     Text("VIBRATION")
-                        .bold()
+                        .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
                         .foregroundColor(.white)
                         .padding()
                         .frame(height: 30)
