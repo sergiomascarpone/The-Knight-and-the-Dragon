@@ -10,7 +10,6 @@ struct SettingsView: View {
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var gameState: GameState
     
-    
     var body: some View {
         ZStack {
             Image("backgroundLoaderImage")

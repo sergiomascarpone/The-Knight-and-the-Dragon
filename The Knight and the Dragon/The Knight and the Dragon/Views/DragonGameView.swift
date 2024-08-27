@@ -80,7 +80,7 @@ struct DragonGameView: View {
                         Text(win ? "YOU WIN!" : "YOU LOSE!")
                             .font(.custom("BigShouldersStencilDisplay-Bold", size: 40))
                             .foregroundColor(.white)
-//                            .padding()
+                        //                            .padding()
                             .background(Color.black.opacity(0.7))
                             .cornerRadius(10)
                         
@@ -88,7 +88,7 @@ struct DragonGameView: View {
                             Text("Win: \(totalBet)")
                                 .font(.custom("BigShouldersStencilDisplay-Bold", size: 40))
                                 .foregroundColor(.white)
-//                                .padding()
+                            //                                .padding()
                         }
                         
                         Button(action: {
@@ -101,7 +101,7 @@ struct DragonGameView: View {
                             Text("GO TO MENU")
                                 .font(.custom("BigShouldersStencilDisplay-Bold", size: 26))
                                 .foregroundColor(.white)
-//                                .padding()
+                            //                                .padding()
                                 .frame(width: 200, height: 40)
                                 .background(Color.red)
                                 .cornerRadius(5)
@@ -153,7 +153,6 @@ struct DragonGameView: View {
                                 HStack {
                                     Text("X \(1.0 - Double(index) * 0.25, specifier: "%.2f")")
                                         .font(.custom("BigShouldersStencilDisplay-Bold", size: 24))
-//                                        .font(.headline)
                                         .foregroundColor(.white)
                                         .padding(.leading, 20)
                                     
