@@ -34,7 +34,6 @@ struct LoaderView: View {
                                 Text("WELCOME TO THE WORLD OF MEDIEVAL ENTERTAINMENT")
                                     .font(.custom("BigShouldersStencilDisplay-Bold", size: 40))
                                     .multilineTextAlignment(.center)
-                                    .font(.largeTitle)
                                     .foregroundColor(.white)
                                     .background(Color.black.opacity(0.4))
                                     .padding()
