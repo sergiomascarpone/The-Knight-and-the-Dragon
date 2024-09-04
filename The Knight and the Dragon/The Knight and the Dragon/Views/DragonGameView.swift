@@ -24,7 +24,7 @@ struct DragonGameView: View {
     @State private var currentMultiplier: Double = 1.0
     @State private var totalBet: Int = 0
     @State private var openedCells: Set<Cell> = Set()
-    private var numberOfMines: Int = 6 // Количество мин на поле
+    private var numberOfMines: Int = 8 // Количество мин на поле
     
     var body: some View {
         ZStack {
