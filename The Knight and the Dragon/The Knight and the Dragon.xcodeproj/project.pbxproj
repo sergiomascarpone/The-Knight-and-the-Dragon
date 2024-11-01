@@ -110,10 +110,10 @@
 		1B8F8E4C2C73429C00EC1227 /* The Knight and the Dragon */ = {
 			isa = PBXGroup;
 			children = (
+				1B6EF7252C75F9E600CD267F /* App */,
 				1B66D71D2C7C9D9200B21ED7 /* Font */,
 				1B6EF7272C75F9FE00CD267F /* Views */,
 				1B6EF7262C75F9F700CD267F /* Models */,
-				1B6EF7252C75F9E600CD267F /* App */,
 				1B8F8E512C73429D00EC1227 /* Assets.xcassets */,
 				1B66D71B2C7C9B5400B21ED7 /* Preview Content */,
 			);
