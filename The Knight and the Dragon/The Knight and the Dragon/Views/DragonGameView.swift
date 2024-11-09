@@ -232,7 +232,7 @@ struct DragonGameView: View {
                 placedMines += 1
             }
         }
-        
+    
         minefield = field
     }
     
